@@ -1,0 +1,363 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+}
+/*Rectangle Background*/
+.rectangle {
+  width: 100%;
+  height: 40vh;
+  background-color: #f1f6fe;
+  border-radius: 0px 0px 0px 100px;
+  position: absolute;
+  z-index: -2;
+}
+/*Heading*/
+.logo {
+  position: relative;
+  z-index: -1;
+  width: 30%;
+  height: 25%;
+  margin-top: 35px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 15px;
+}
+.heading h1 {
+  color: #282e46;
+  font-size: 18px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-weight: 800;
+  margin-top: -110px;
+  font-family: 'Manrope', sans-serif;
+}
+.heading h2 {
+  color: #8b8d9c;
+  font-size: 12px;
+  margin: auto;
+  line-height: 20px;
+  width: 38%;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+}
+.card {
+  margin-top: 60px;
+}
+.price-card {
+  color: #8b8d9c;
+  border: none;
+  background-color: white;
+  box-shadow: 5px 10px 18px #eaebee;
+  width: 75%;
+  height: 60vh;
+  border-radius: 10px;
+  margin: auto;
+}
+.stats_views {
+  display: block;
+  width: 49%;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  font-size: 15px;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.stats_price {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.month {
+  justify-self: center;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.span_spacing1 {
+  padding-right: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+.span_spacing2 {
+  text-align: center;
+  font-size: 30px;
+  color: #283356;
+  font-weight: bold;
+}
+
+.range-container {
+  width: 85%;
+  margin: auto;
+}
+.slider {
+  appearance: none;
+  height: 10px;
+  background: #f1f6fe;
+  outline: none;
+  border-radius: 25px;
+  opacity: 1;
+}
+.slider:hover {
+  opacity: 0.8;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(./images/icon-slider.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2px;
+  background-color: hsl(174, 86%, 45%);
+  cursor: pointer;
+  border: none;
+  box-shadow: 5px 10px 18px hsl(174, 86%, 45%);
+}
+
+.slider::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(./images/icon-slider.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-color: hsl(174, 86%, 45%);
+  padding: 2px;
+  border: none;
+  box-shadow: 2px 20px 18px hsl(174, 77%, 80%);
+}
+
+#range {
+  width: 90%;
+  background: linear-gradient(
+    to right,
+    #82cfd0 0%,
+    #82cfd0 50%,
+    #82cfd0 50%,
+    #82cfd0 100%
+  );
+  border: 1px solid #82cfd0;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+hr {
+  width: 100%;
+  border: 1px solid #8b8d9c;
+
+  margin-top: 10%;
+}
+
+.billing {
+  font-size: 12px;
+  color: #8b8d9c;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+.mBilling {
+  padding-right: 10px;
+}
+.ybilling {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.billing input {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.billing_discount {
+  background-color: #ffebe3;
+  color: #fb5050;
+  border-radius: 15px;
+  font-size: 10px;
+  padding: 2px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.trail {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+li {
+  list-style: none;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+  display: block;
+}
+ul img {
+  padding-right: 10px;
+  font-size: 12px;
+}
+.btn {
+  font-size: 12px;
+  text-align: center;
+  color: #8290ba;
+  background-color: #283356;
+  border-radius: 25px;
+  border: none;
+  padding: 15px 50px 15px 50px;
+  cursor: pointer;
+  margin-top: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.trail-btn {
+  height: 200px;
+  position: relative;
+}
+.checkbox {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+}
+.checkbox input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.checkbox_slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.checkbox_slider:before {
+  position: absolute;
+  content: '';
+  height: 16px;
+  width: 15px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+input:checked + .checkbox_slider {
+  background-color: hsl(174, 77%, 80%);
+}
+
+input:focus + .checkbox_slider {
+  box-shadow: 0 0 1px hsl(174, 77%, 80%);
+}
+input:checked + .checkbox_slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+hr {
+  border: 0.1px solid rgb(236, 232, 232);
+  margin: 10px;
+}
+.hidden-span {
+  display: none;
+}
+
+@media only screen and (min-width: 867px) {
+  .rectangle {
+    height: 55vh;
+  }
+  .logo {
+    position: relative;
+    z-index: -1;
+    width: 10%;
+    height: 15%;
+  }
+  .price-card {
+    margin-top: 7%;
+    width: 35%;
+    height: 55vh;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .stats {
+    width: 100%;
+
+    position: relative;
+  }
+  .stats_views {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+  }
+  .stats_price {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+  }
+  .range-container {
+    position: relative;
+    padding-top: 25%;
+  }
+  .billing {
+    padding-top: 12%;
+    padding-bottom: 5%;
+    font-size: 15px;
+  }
+  hr {
+    margin-top: 3%;
+  }
+  .trial {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+
+  ul {
+    margin-top: 10%;
+  }
+  li {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .btn {
+    justify-self: center;
+    margin-top: -3%;
+  }
+  .hidden-span {
+    display: inline-block;
+    background-color: #ffebe3;
+    color: #fb5050;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .billing_discount {
+    display: none;
+  }
+}

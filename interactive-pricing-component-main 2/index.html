@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <script src="https://kit.fontawesome.com/e65ee3eae7.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      margin-top:45px;
+      font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section>
+    <div class="rectangle"></div>
+
+    <section class="heading">
+      <img src="./images/pattern-circles.svg" alt="logo" class="logo">
+    <h1>
+      Simple, Traffic-Based Pricing
+    </h1>
+    <h2> Sign-up for our 30-day trial. No credit card required. <h2>
+    </section>
+    
+  <div class="card">
+        <div class="price-card">
+          <div class="stats">
+            <div class="stats_views">
+              <span class="span_spacing1"></span>Pageviews
+            </div>
+            <div class="range-container">
+              <input type="range" id="range" name="range" min="1" max="5"
+              class="slider">
+            </div>
+            <div class="stats_price">
+              <span class="span_spacing2"></span><p class="month">/ month</p>
+            </div>
+          </div>
+    
+
+            <div class="billing">
+              <p class="mBilling">Monthly Billing</p>
+          
+              <label for="billing" class="checkbox">
+                <input type="checkbox" id="billing">
+                <span class="checkbox_slider"></span>
+              </label>
+            
+              
+              <p class="ybilling">Yearly billing</p>
+            
+              <span class="hidden-span">25% discount</span> 
+              <span class="billing_discount">-25%</span>
+            </div>
+
+            <div>
+              <hr>
+            </div>
+            
+
+          <div class="trial">
+            <div class="trial-list">
+            <ul>
+              <li><img src="./images/icon-check.svg"></img> Unlimited websites
+              </li>
+              <li><img src="./images/icon-check.svg">100% data ownership</li>
+              
+              <li><img src="./images/icon-check.svg">Email reports</li>
+            </ul>
+            </div>
+
+            <div class="trial-btn">
+            <button type="button" class="btn"> Start my trial</button>
+            </div>
+            </div>
+          </div>
+          </div>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Shaddai Lerman</a>.
+  </div>
+</section>
+  <script src="app.js"></script>
+</body>
+</html>
