@@ -1,6 +1,6 @@
 # DIRECTORY
 
--<a href="" target="https://shaddaidev.github.io/faq-accordion-card-main/"> Faq-accoridion-card</a>
+- <a href="https://shaddaidev.github.io/faq-accordion-card-main/" target="_blank"> Faq-accoridion-card</a>
 
 - <a href="https://shaddaidev.github.io/insure-landing-page-master/" target="_blank">Insure-landing-page</a>
 - <a href="https://shaddaidev.github.io/interactive-pricing-component-main 2/" target="_blank">Interative-pricing</a>
