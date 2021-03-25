@@ -1,5 +1,6 @@
 body {
-  width: 1440px;
+  width 100%
+  max-width: 1440px;
   background-color: hsl(0, 0%, 81%);
 }
 .card-1 {
