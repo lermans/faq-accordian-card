@@ -1,2 +1,3 @@
-# faq-accordian-card
-Frontend Mentor Challenge
+# DIRECTORY
+
+- [ACCORIDION](https://lermans.github.io/faq-accordion-card-main/)
